@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A28F21A755F876618549A41A /* libPods-videoPlayIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E0F2BDB0AE467831A91369 /* libPods-videoPlayIOS.a */; };
+		A5177ADC1ED3C66F0095EEDC /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5177ADB1ED3C66F0095EEDC /* CalendarManager.m */; };
 		A56997E41ECEAB1000B6AA0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A56997E31ECEAB1000B6AA0D /* main.m */; };
 		A56997E71ECEAB1000B6AA0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A56997E61ECEAB1000B6AA0D /* AppDelegate.m */; };
 		A56997EA1ECEAB1000B6AA0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56997E91ECEAB1000B6AA0D /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		A56997F51ECEAB1000B6AA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56997F31ECEAB1000B6AA0D /* LaunchScreen.storyboard */; };
 		A56998001ECEAB1000B6AA0D /* videoPlayIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56997FF1ECEAB1000B6AA0D /* videoPlayIOSTests.m */; };
 		A569980B1ECEAB1000B6AA0D /* videoPlayIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A569980A1ECEAB1000B6AA0D /* videoPlayIOSUITests.m */; };
+		A56998611ED1B01B00B6AA0D /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56998601ED1B01B00B6AA0D /* ReactView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FBC9B10D6A3BDA9CBB4180C /* Pods-videoPlayIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlayIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlayIOS/Pods-videoPlayIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A5177ADA1ED3C66F0095EEDC /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
+		A5177ADB1ED3C66F0095EEDC /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
 		A56997DF1ECEAB1000B6AA0D /* videoPlayIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoPlayIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56997E31ECEAB1000B6AA0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A56997E51ECEAB1000B6AA0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +59,10 @@
 		A56998061ECEAB1000B6AA0D /* videoPlayIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoPlayIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A569980A1ECEAB1000B6AA0D /* videoPlayIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoPlayIOSUITests.m; sourceTree = "<group>"; };
 		A569980C1ECEAB1000B6AA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A569985F1ED1B01B00B6AA0D /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		A56998601ED1B01B00B6AA0D /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		A6E0F2BDB0AE467831A91369 /* libPods-videoPlayIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-videoPlayIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ACEF057E414670655B3EC7 /* Pods-videoPlayIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlayIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlayIOS/Pods-videoPlayIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28F21A755F876618549A41A /* libPods-videoPlayIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FDDC35ABCD50AFF01585583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC9B10D6A3BDA9CBB4180C /* Pods-videoPlayIOS.debug.xcconfig */,
+				E1ACEF057E414670655B3EC7 /* Pods-videoPlayIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A56997D61ECEAB1000B6AA0D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +107,8 @@
 				A56997FE1ECEAB1000B6AA0D /* videoPlayIOSTests */,
 				A56998091ECEAB1000B6AA0D /* videoPlayIOSUITests */,
 				A56997E01ECEAB1000B6AA0D /* Products */,
+				5FDDC35ABCD50AFF01585583 /* Pods */,
+				B692D6426825229CBB0DC469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +129,10 @@
 				A56997E61ECEAB1000B6AA0D /* AppDelegate.m */,
 				A56997E81ECEAB1000B6AA0D /* ViewController.h */,
 				A56997E91ECEAB1000B6AA0D /* ViewController.m */,
+				A5177ADA1ED3C66F0095EEDC /* CalendarManager.h */,
+				A5177ADB1ED3C66F0095EEDC /* CalendarManager.m */,
+				A569985F1ED1B01B00B6AA0D /* ReactView.h */,
+				A56998601ED1B01B00B6AA0D /* ReactView.m */,
 				A56997EB1ECEAB1000B6AA0D /* Main.storyboard */,
 				A56997F11ECEAB1000B6AA0D /* Assets.xcassets */,
 				A56997F31ECEAB1000B6AA0D /* LaunchScreen.storyboard */,
@@ -143,6 +169,14 @@
 			path = videoPlayIOSUITests;
 			sourceTree = "<group>";
 		};
+		B692D6426825229CBB0DC469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E0F2BDB0AE467831A91369 /* libPods-videoPlayIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +184,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A569980F1ECEAB1000B6AA0D /* Build configuration list for PBXNativeTarget "videoPlayIOS" */;
 			buildPhases = (
+				6AD47872BF902C119868BCAB /* [CP] Check Pods Manifest.lock */,
 				A56997DB1ECEAB1000B6AA0D /* Sources */,
 				A56997DC1ECEAB1000B6AA0D /* Frameworks */,
 				A56997DD1ECEAB1000B6AA0D /* Resources */,
+				6B48D5D52E9267A5BAAFD39D /* [CP] Embed Pods Frameworks */,
+				184D4C88E532D76E8C0B2301 /* [CP] Copy Pods Resources */,
+				A569985B1ED1ABC800B6AA0D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -210,6 +248,7 @@
 				TargetAttributes = {
 					A56997DE1ECEAB1000B6AA0D = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W3XG88V6A2;
 						ProvisioningStyle = Automatic;
 					};
 					A56997FA1ECEAB1000B6AA0D = {
@@ -271,15 +310,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		184D4C88E532D76E8C0B2301 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoPlayIOS/Pods-videoPlayIOS-resources.sh\"\n";
+		};
+		6AD47872BF902C119868BCAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B48D5D52E9267A5BAAFD39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoPlayIOS/Pods-videoPlayIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A569985B1ED1ABC800B6AA0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A56997DB1ECEAB1000B6AA0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56998611ED1B01B00B6AA0D /* ReactView.m in Sources */,
 				A56997EA1ECEAB1000B6AA0D /* ViewController.m in Sources */,
 				A56997F01ECEAB1000B6AA0D /* videoPlayIOS.xcdatamodeld in Sources */,
 				A56997E71ECEAB1000B6AA0D /* AppDelegate.m in Sources */,
 				A56997E41ECEAB1000B6AA0D /* main.m in Sources */,
+				A5177ADC1ED3C66F0095EEDC /* CalendarManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,23 +529,31 @@
 		};
 		A56998101ECEAB1000B6AA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBC9B10D6A3BDA9CBB4180C /* Pods-videoPlayIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3XG88V6A2;
 				INFOPLIST_FILE = videoPlayIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QiaoYun.videoPlayIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/React/React/**";
 			};
 			name = Debug;
 		};
 		A56998111ECEAB1000B6AA0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1ACEF057E414670655B3EC7 /* Pods-videoPlayIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3XG88V6A2;
 				INFOPLIST_FILE = videoPlayIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QiaoYun.videoPlayIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/React/React/**";
 			};
 			name = Release;
 		};
@@ -513,6 +622,7 @@
 				A56998111ECEAB1000B6AA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A56998121ECEAB1000B6AA0D /* Build configuration list for PBXNativeTarget "videoPlayIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +631,7 @@
 				A56998141ECEAB1000B6AA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A56998151ECEAB1000B6AA0D /* Build configuration list for PBXNativeTarget "videoPlayIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +640,7 @@
 				A56998171ECEAB1000B6AA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

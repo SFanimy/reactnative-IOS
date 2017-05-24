@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RCTRootView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSURL *jsCodeLocation;
+    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"];
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                        moduleName:@"videoPlayIOS"
+                                                 initialProperties:nil
+                                                     launchOptions:nil];
+  
+    rootView.frame = self.view.frame;
+    [self.view addSubview:rootView];
 }
 
 
